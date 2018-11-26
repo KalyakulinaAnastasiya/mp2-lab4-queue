@@ -27,7 +27,7 @@ int main() {
 	cin >> intQueue;
 	cout << endl;
 	Proceccor proc;
-    proc.InPut(size, timeTact, cores, processorInt, intQueue);
+  //  proc.InPut(size, timeTact, cores, processorInt, intQueue);
 	proc.Work(size, timeTact, cores, processorInt, intQueue);
 	system("pause");
 	cin >> size;
